@@ -1,0 +1,69 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Mengubah font menjadi lebih halus */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6087c1c1, #000); /* Warna gradasi merah muda dan ungu */
+    font-size: 14px; /* Mengatur ukuran font menjadi lebih kecil */
+}
+
+.menu-container {
+    max-width: 500px; /* Mengurangi lebar kontainer */
+    margin: 30px auto; /* Mengurangi jarak dari atas */
+    padding: 20px; /* Mengurangi padding kontainer */
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan opasitas untuk membedakan konten */
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Mengurangi bayangan kontainer */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Mengurangi jarak antara judul dan konten */
+    font-size: 18px; /* Mengatur ukuran font judul menjadi lebih kecil */
+}
+
+.menu-category {
+    margin-bottom: 15px; /* Mengurangi jarak antara kategori menu */
+}
+
+.menu-category h3 {
+    border-bottom: 2px solid #fff; /* Menggunakan warna putih untuk garis bawah */
+    padding-bottom: 3px; /* Mengurangi jarak bawah garis */
+    margin-bottom: 8px; /* Mengurangi jarak antara judul kategori dan menu */
+    color: #1f1e1e; /* Mengubah warna teks menjadi hitam */
+    font-size: 16px; /* Mengatur ukuran font judul kategori */
+}
+
+.menu-list li {
+    padding: 8px; /* Mengurangi padding pada item menu */
+    border-bottom: 1px solid #fff; /* Menggunakan warna putih untuk garis pembatas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1f1e1e; /* Mengubah warna teks menjadi hitam */
+    font-size: 14px; /* Mengatur ukuran font item menu */
+}
+
+.order-control button {
+    background-color: #fff; /* Mengubah warna latar belakang tombol menjadi putih */
+    color: #800080; /* Mengubah warna teks tombol menjadi ungu */
+    border: none;
+    border-radius: 3px;
+    width: 24px; /* Mengurangi lebar tombol */
+    height: 24px; /* Mengurangi tinggi tombol */
+    cursor: pointer;
+    font-size: 14px; /* Mengatur ukuran font tombol */
+    
+}
+
+.order-count {
+    margin: 0 6px; /* Mengurangi jarak antara tombol dan angka */
+    font-size: 14px; /* Mengatur ukuran font angka */
+}
+
+#total {
+    text-align: center;
+    margin-top: 15px; /* Mengurangi jarak antara total dan item menu terakhir */
+    font-weight: bold;
+    color: #292929; /* Mengubah warna teks total menjadi hitam */
+    font-size: 16px; /* Mengatur ukuran font total */
+}

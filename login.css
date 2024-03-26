@@ -1,0 +1,63 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background: linear-gradient(to bottom, #6087c1c1, #000);
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Mengubah warna teks menjadi putih */
+}
+
+.login-container {
+    width: 300px;
+    height: 400px; /* Mengubah tinggi container menjadi 400px */
+    margin: 200px auto;
+    background-color: #0073ff56; /* Warna latar belakang container menjadi hitam */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Membuat container dapat di-scroll jika kontennya melebihi tinggi */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #5252527e; /* Membuat input dan tombol transparan */
+    color: #fff; /* Mengubah warna teks input dan tombol menjadi putih */
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.error-message {
+    color: rgb(166, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    display: none; /* Mulai tersembunyi */
+}
+
+
